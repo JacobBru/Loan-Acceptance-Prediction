@@ -16,8 +16,4 @@ categorical_columns = ['person_gender', 'person_education', 'person_home_ownersh
 df_encoded = pd.get_dummies(df, columns=categorical_columns, drop_first=True)
 
 # Save the cleaned and encoded DataFrame to a CSV file
-#df_encoded.to_csv('cleaned_loan_data.csv', index=False)
-
-num_columns = df.shape[1]
-
-print(f'The number of columns in the DataFrame is: {num_columns}')
+df_encoded.to_csv('cleaned_loan_data.csv', index=False)
