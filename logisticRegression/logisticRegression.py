@@ -22,8 +22,9 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
+
 # Initialize the logistic regression model
-model = LogisticRegression(solver='liblinear', penalty='l1', max_iter=5000, C=0.1) # 1000 is a magic number that I have to tweak
+model = LogisticRegression(solver='liblinear', penalty='l1', max_iter=5000, C=0.1)
 
 # Training and prediction
 model.fit(X_train, y_train)
