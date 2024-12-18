@@ -2,7 +2,7 @@
 
 CS 549 Machine Learning Project Developed by Jacob Brubaker, Trevor Klein, and Nicholas Dibello-Hitta
 
-Neural Network - Designed by Trevor Klein  
+Neural Network - Designed by Trevor Klein - 827347931  
 SVM Model - Designed by Jacob Brubaker  
 Logistic Regression Model - Designed by Nicholas Dibello-Hitta  
 
